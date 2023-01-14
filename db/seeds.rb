@@ -27,3 +27,7 @@ end
 list = List.create!(
   name: "Classics"
 )
+
+bookmark = Bookmark.create!(
+  comment: "Tremendous!",
+)

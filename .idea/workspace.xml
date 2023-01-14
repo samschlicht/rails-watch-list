@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7340f3a-1fe8-412c-9d63-8b9b9432c22f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/bookmarks_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/lists_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/bookmarks_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/lists_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/bookmark.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/list.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/bookmarks/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/bookmarks/destroy.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/bookmarks/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/lists/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/lists/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/lists/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/lists/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20230114041437_create_movies.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20230114052504_create_lists.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20230114052533_create_bookmarks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20230114061715_add_movies_to_bookmark.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20230114061730_add_lists_to_bookmark.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673664355780</updated>
-      <workItem from="1673664357612" duration="16753000" />
+      <workItem from="1673664357612" duration="19732000" />
     </task>
     <servers />
   </component>
