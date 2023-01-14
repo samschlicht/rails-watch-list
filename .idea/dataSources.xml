@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails rails-watch-list: test" uuid="44039243-c654-4c7c-b3a0-0b7e83779b90">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/rails_watch_list_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails-watch-list: production" uuid="265f3df3-0ec5-4f97-b8b1-8f4bed722494">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/rails_watch_list_production</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails-watch-list: development" uuid="57e0e756-7f61-4fb3-898e-83c815275516">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5431/rails_watch_list_development</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="7a818bd2-d336-4cee-8417-7dd96ca2cbcc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5431/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
