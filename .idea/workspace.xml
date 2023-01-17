@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7340f3a-1fe8-412c-9d63-8b9b9432c22f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57e0e756-7f61-4fb3-898e-83c815275516.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57e0e756-7f61-4fb3-898e-83c815275516.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a818bd2-d336-4cee-8417-7dd96ca2cbcc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7a818bd2-d336-4cee-8417-7dd96ca2cbcc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/bookmarks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/bookmarks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/lists_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/lists_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/bookmark.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/bookmark.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/list.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/list.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/bookmarks/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/bookmarks/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/lists/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lists/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/lists/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lists/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/lists/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lists/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +166,7 @@
       <updated>1673664355780</updated>
       <workItem from="1673664357612" duration="21159000" />
       <workItem from="1673824457979" duration="11811000" />
-      <workItem from="1673932639818" duration="11780000" />
+      <workItem from="1673932639818" duration="13012000" />
     </task>
     <servers />
   </component>
