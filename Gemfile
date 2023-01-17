@@ -71,3 +71,6 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+# Heroku instructions
+gem 'cloudinary', '~> 1.16.0'

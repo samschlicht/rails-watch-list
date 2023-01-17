@@ -33,7 +33,7 @@ class ListsController < ApplicationController
   end
 
   def list_params
-    params.require(:list).permit(:name)
+    params.require(:list).permit(:name, :photo)
     # TODO: photo upload, add bookmarks
   end
 end
