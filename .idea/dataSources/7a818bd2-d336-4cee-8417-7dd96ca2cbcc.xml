@@ -7,10 +7,10 @@
     <database id="2" parent="1" name="postgres">
       <Current>1</Current>
     </database>
-    <database id="3" parent="1" name="rails_watch_list_development"/>
-    <database id="4" parent="1" name="samschlicht"/>
+    <database id="3" parent="1" name="samschlicht"/>
+    <database id="4" parent="1" name="template1"/>
     <database id="5" parent="1" name="template0"/>
-    <database id="6" parent="1" name="template1"/>
+    <database id="6" parent="1" name="rails_watch_list_development"/>
     <schema id="7" parent="2" name="information_schema"/>
     <schema id="8" parent="2" name="pg_catalog"/>
     <schema id="9" parent="2" name="public">
