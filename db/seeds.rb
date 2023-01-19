@@ -21,6 +21,6 @@ response['results'].each do |movie_hash|
   )
 end
 
-@list = List.create!(
+List.create(
   name: 'Classics'
 )
