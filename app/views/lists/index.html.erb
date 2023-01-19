@@ -2,12 +2,12 @@
     <h1 class="display-3" style="color: whitesmoke">My Movie Lists</h1>
 </div>
 <div class="container">
-    <%# @lists.each do |list| %>
-      <%#= link_to list_path(list) do %>
+    <% @lists.each do |list| %>
+      <%= link_to list_path(list) do %>
         <div class="banner py-5 px-3 my-3" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cl_image_path list.photo.key, height: 300, crop: :fill %>');">
           <h1 style="color: whitesmoke; text-decoration: none"><%= list.name %></h1>
         </div>
-      <%# end %>
-    <%# end %>
+      <% end %>
+    <% end %>
     <%= link_to "Create a New List", new_list_path, class: "btn btn-primary" %>
 </div>
