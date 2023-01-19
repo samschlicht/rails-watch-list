@@ -20,3 +20,7 @@ response['results'].each do |movie_hash|
     poster_url: "https://image.tmdb.org/t/p/w500" + movie_hash['poster_path']
   )
 end
+
+List.create!(
+  name: 'Classics'
+)
