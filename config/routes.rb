@@ -1,11 +1,7 @@
 Rails.application.routes.draw do
-  resources :lists, only: [:show, :index, :new, :create] do
+  resources :lists do
     resources :bookmarks, only: [:new, :create]
   end
-
+  resources :bookmarks, only: :destroy
   root to: 'lists#index'
-
-  delete '/lists/:id', to: 'lists#destroy', as: 'delete_list'
-
-  delete '/lists/:list_id/bookmarks/:id', to: 'bookmarks#destroy', as: 'delete_bookmark'
   end

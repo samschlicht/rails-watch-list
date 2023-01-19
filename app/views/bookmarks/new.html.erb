@@ -1,7 +1,12 @@
-<h1>Add to <%= @list.name %></h1>
-<%= simple_form_for [@list, @bookmark] do |f|  %>
-  <%= f.association :movie, collection: @movies %>
-  <%= f.input :comment %>
-  <%= f.submit 'Add', class: "btn btn-primary" %>
-<% end %>
-<%= link_to "↺ Back to Lists", lists_path, class: "mt-3 btn btn-secondary" %>
+<div class="banner py-5 px-3 mb-3" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://live-production.wcms.abc-cdn.net.au/c4c5ca8713d6d6dac83f61ad0f619525?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485);">
+  <h1 class="display-3" style="color: whitesmoke">My Movie Lists</h1>
+</div>
+<div class="container">
+  <h1>Add to <%= @list.name %></h1>
+  <%= simple_form_for [@list, @bookmark] do |f|  %>
+    <%= f.association :movie, collection: @movies %>
+    <%= f.input :comment %>
+    <%= f.submit 'Add', class: "btn btn-primary" %>
+  <% end %>
+  <%= link_to "↺ Back to Lists", lists_path, class: "mt-3 btn btn-secondary" %>
+</div>
