@@ -1,10 +1,10 @@
-<div class="banner py-5 px-3 mb-3" style="background-size: cover; background-position-y: 84%; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://live-production.wcms.abc-cdn.net.au/c4c5ca8713d6d6dac83f61ad0f619525?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485);">
+<div class="banner py-5 px-3" style="background-size: cover; background-position-y: 84%; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://live-production.wcms.abc-cdn.net.au/c4c5ca8713d6d6dac83f61ad0f619525?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485);">
     <h1 class="display-3" style="color: whitesmoke">My Movie Lists</h1>
 </div>
-<div class="container pb-3">
+<div class="container py-3">
     <% @lists.each do |list| %>
       <%= link_to list_path(list) do %>
-        <div class="banner py-5 px-3 my-3" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cl_image_path list.photo.key, height: 300, crop: :fill %>');">
+        <div class="banner py-5 px-3 mb-3" style="background-size: cover; background-position: center; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cl_image_path list.photo.key, height: 300, crop: :fill %>');">
           <h1 style="color: whitesmoke; text-decoration: none"><%= list.name %></h1>
         </div>
       <% end %>
